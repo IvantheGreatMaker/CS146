@@ -1,6 +1,6 @@
 High level overview
 
-chech if the nodes is null(or equivlant)
+if the nodes is null(or equivlant)
   exit
 if no children
   exit
