@@ -1,1 +1,7 @@
+Is BST take in the root, minimum int, and maximum int
+  if the root is null
+    return true ( if there are no nodes then it's a valid empty tree)
+  else if the root is less than the lower limit or more than the upper limit
+    return false
+  then call itself checking the left side with the max of as the root, and (use an AND operator so one false makes this an invalid BST)  call itself checking the right side with the root as the minimum 
 
