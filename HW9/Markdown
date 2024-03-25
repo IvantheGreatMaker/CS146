@@ -1,1 +1,7 @@
-
+Lowest common Ancestor take in the root p and q
+  if p and q is less than root  // they are both on the left so the lowest ancestor must be on the left 
+    call itself with the root's left child as the new root
+  else if p and q is more than root  // they are both on the right so the lowest ancestor must be on the right
+    call itself with the root's right child as the new root
+  else  // if they are both not on the same side then there is one on each side or one of them is the root in which case the root is the lowest ancestor
+    return root 
