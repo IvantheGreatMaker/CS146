@@ -1,0 +1,20 @@
+Idea: Breath first search
+Base case: if root is null
+  return null
+
+create resulting list of lists
+create queue
+
+add root to queue
+
+while queue has nodes in it
+  get level size by the amount of values in queue
+  create list for nodes in leve
+
+  for every node in the level size
+    add the node to the level list
+    add the children of the node to the queue
+
+  add the level list to the list of level lists
+return list of lists
+#(we needed level size to make sure we only add in the values at this level into the level list)
