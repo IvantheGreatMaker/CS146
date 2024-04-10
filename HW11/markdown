@@ -1,0 +1,12 @@
+if pixel is already the color 
+    return the array
+    m is row
+    n is column
+    old color is the original pixel color
+    create a queue and add the pixel cordinate as an ordered pair 
+
+    while the queue has a pixel in it
+    take out the cordinate
+
+    if the corinate is not original pixel color 
+  
