@@ -6,7 +6,10 @@ if pixel is already the color
     create a queue and add the pixel cordinate as an ordered pair 
 
     while the queue has a pixel in it
-    take out the cordinate
+        take out the cordinate
 
-    if the corinate is not original pixel color 
+        if the corinate is not original pixel color 
+            skip the next steps
+
+        check if has a neighbor in all four sides then add that to the queue if it has one
   
