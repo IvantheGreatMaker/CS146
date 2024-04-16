@@ -1,1 +1,12 @@
+      // Initialize a map to store the adjacency list of the graph
+    // Initialize an array to store the number of prerequisites for each course
+     // Build the adjacency list and count the number of prerequisites for each course
+     // Initialize a deque to perform a breadth-first search
+      // Add all courses with no prerequisites to the deque
+      // Initialize a counter to keep track of the number of courses that can be taken
+       // Perform a breadth-first search to determine if all courses can be taken
 
+       while queue is not empty
+       get connections, if connections don't connect to something already on the queue then add it. 
+       
+    // Return true if all courses can be taken, false otherwise
